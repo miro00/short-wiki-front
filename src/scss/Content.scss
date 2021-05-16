@@ -1,0 +1,19 @@
+@import "./vars";
+
+.content {
+  width: $container-width - $sidebar-width;
+  min-height: 100vh;
+
+  &-container {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  article {
+    h1 {
+      font-weight: bold;
+      font-size: 2em;
+    }
+  }
+}
